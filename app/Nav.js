@@ -3,12 +3,12 @@ import React from "react";
 import Link from "next/link";
 import { Box, Button, Flex, Text } from "@chakra-ui/react";
 import { HiHomeModern } from "react-icons/hi2";
-import { navList } from "./navList";
+import { navList } from "./NavList";
 
 export default function Nav() {
   return (
     <Box
-      color="green"
+      color="green.600"
       paddingY="2rem"
       backgroundColor="white"
       display={{ base: "none", md: "block" }}
@@ -16,10 +16,10 @@ export default function Nav() {
       <Box maxWidth="1280px" margin="0 auto">
         <Flex alignItems="center" justifyContent="space-between">
           <Link href="/">
-            <Box>
+            <Box display="flex" gap="2" alignItems="center">
               <HiHomeModern size="30" />
               <Text fontSize="2xl" fontWeight="black">
-                Jason's Real Estate
+              Luxuria Estates
               </Text>
             </Box>
           </Link>

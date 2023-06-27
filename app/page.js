@@ -1,5 +1,5 @@
 "use client"
-import Nav from "./nav"
+import Nav from "./Nav"
 import { ChakraProvider } from "@chakra-ui/react";
 export default function Home() {
   return (

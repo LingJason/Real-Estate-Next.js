@@ -1,12 +1,14 @@
 "use client"
-import Nav from "./Nav"
+import Navbar from "./Nav/Navbar"
+import Footer from "./Foot/Footer";
 import { ChakraProvider } from "@chakra-ui/react";
 export default function Home() {
   return (
     <>
     <ChakraProvider>
-    <Nav/>
+    <Navbar/>
    <div>Hello Jason</div>
+   <Footer/>
    </ChakraProvider>
    </>
   );

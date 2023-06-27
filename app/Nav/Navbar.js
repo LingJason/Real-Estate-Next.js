@@ -5,7 +5,7 @@ import { Box, Button, Flex, Text } from "@chakra-ui/react";
 import { HiHomeModern } from "react-icons/hi2";
 import { navList } from "./NavList";
 
-export default function Nav() {
+export default function Navbar() {
   return (
     <Box
       color="green.600"

@@ -1,7 +1,8 @@
 "use client"
-import Navbar from "./Nav/Navbar"
-import Footer from "./Foot/Footer";
+import Navbar from "./Component/Nav/Navbar";
+import Footer from "./Component/Foot/Footer";
 import { ChakraProvider, Box, Text } from "@chakra-ui/react";
+import FeatureProps from "./Component/Featured/FeatureProps";
 export default function Home() {
   return (
     <>
@@ -39,14 +40,15 @@ export default function Home() {
         padding={"2rem"}
         >
             <Text
-            fontSize={"4xl"}
-            lineHeight={"shorter"}
+            fontSize={"5xl"}
+            lineHeight={"unset"}
             marginBottom={"1.5rem"}>
-              Elevate Your Lifestyle: <br></br> Unravel <strong>Luxury</strong> with Every Listing
+              Elevate Your Lifestyle, <br></br> Unravel <strong>Luxury</strong> with Every Listing
             </Text>
         </Box>
       </Box>
     </Box>
+    <FeatureProps/>
    <Footer/>
    </ChakraProvider>
    </>
